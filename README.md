@@ -5,3 +5,9 @@ The project is implemented in Python using Keras, pandas, NumPy, and some deep l
 
 ## Key Findings
 Experimental results indicate that Neural Collaborative Filtering consistently outperformed other methods in ranking accuracy (MRR) and Hit Rate, particularly when evaluating users with sufficient history. While the Content-Based approach performed well for users with specific genre preferences, and the Hybrid model achieved the highest initial Hit Rate, the pure Neural Collaborative model provided the best balance of precision. If we continued this work, we would aim to incorporate Reinforcement Learning and more metadata, such as plot, to optimize accuracy and user engagement.
+
+## Collaborators
+- Benjamin Sengupta
+- Jyothir Krishnan
+- Gavin Eugenio
+- Monil Patel
