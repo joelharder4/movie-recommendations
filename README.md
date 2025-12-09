@@ -1,2 +1,8 @@
-# movie-recommendations
-A Data Science project for CIS*4020 to build the best move recommendation model for users based on the MovieLens 32M Dataset
+## Project Overview
+This project evaluates and compares threen recommendation strategies, Collaborative Filtering, Content-Based Filtering, and a Hybrid approach, to suggest films based on user reviews. Utilizing the MovieLens 32M dataset, which contains 32 million ratings across 87,585 movies, the system aims to address challenges such as information overload and the "cold start" problem. Our project focuses on assessing predictive accuracy and scalability to find the most effective strategy in real-world entertainment scenarios.
+
+## Methodology & Tech Stack
+The project is implemented in Python using Keras, pandas, NumPy, and some deep learning techniques to build the models. The Collaborative Filtering model utilizes Neural Collaborative Filtering (NCF) to learn latent factors in user-item interactions, while the Content-Based model uses TF-IDF vectorization on movie overviews to identify key attributes. The Hybrid approach integrates both strategies, ordering content-based picks by collaborative predicted ratings. Performance was evaluated using Hit Rate and Mean Reciprocal Rank (MRR) to measure recommendation accuracy and ranking quality.
+
+## Key Findings
+Experimental results indicate that Neural Collaborative Filtering consistently outperformed other methods in ranking accuracy (MRR) and Hit Rate, particularly when evaluating users with sufficient history. While the Content-Based approach performed well for users with specific genre preferences, and the Hybrid model achieved the highest initial Hit Rate, the pure Neural Collaborative model provided the best balance of precision. If we continued this work, we would aim to incorporate Reinforcement Learning and more metadata, such as plot, to optimize accuracy and user engagement.
