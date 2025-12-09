@@ -1,7 +1,6 @@
-## Project Overview
-This project evaluates and compares threen recommendation strategies, Collaborative Filtering, Content-Based Filtering, and a Hybrid approach, to suggest films based on user reviews. Utilizing the MovieLens 32M dataset, which contains 32 million ratings across 87,585 movies, the system aims to address challenges such as information overload and the "cold start" problem. Our project focuses on assessing predictive accuracy and scalability to find the most effective strategy in real-world entertainment scenarios.
+This project evaluates and compares threen recommendation strategies, Collaborative Filtering, Content-Based Filtering, and a Hybrid approach, to suggest films based on user reviews. Utilizing the MovieLens 32M dataset, which contains 32 million ratings across 87,585 movies, the system aims to address challenges such as information overload and the "cold start" problem. Our project focuses on assessing predictive accuracy and scalability to find the most effective strategy in real-world entertainment scenarios. It is the final project for CIS*4020, Data Science, in Fall 2025.
 
-## Methodology & Tech Stack
+## Methodology
 The project is implemented in Python using Keras, pandas, NumPy, and some deep learning techniques to build the models. The Collaborative Filtering model utilizes Neural Collaborative Filtering (NCF) to learn latent factors in user-item interactions, while the Content-Based model uses TF-IDF vectorization on movie overviews to identify key attributes. The Hybrid approach integrates both strategies, ordering content-based picks by collaborative predicted ratings. Performance was evaluated using Hit Rate and Mean Reciprocal Rank (MRR) to measure recommendation accuracy and ranking quality.
 
 ## Key Findings
